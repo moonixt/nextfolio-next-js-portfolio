@@ -7,15 +7,27 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Mithril AI",
+    title: "Feedbook Front End",
     year: 2024,
-    description: "Open science AI resarch lab",
-    url: "https://github.com/mithrilai",
+    description: "Projeto FrontEnd de rede social mesclando todas as funções de redes sociais conhecidas",
+    url: "https://github.com/moonixt/feed-book",
   },
   {
-    title: "OpenDeepLearning",
-    year: 2023,
-    description: "Open source AI education resources",
-    url: "https://opendeeplearning.xyz/",
+    title: "Feedbook Back End",
+    year: 2024,
+    description: "Projeto BackEnd de rede social mesclando todas as funções de redes sociais conhecidas",
+    url: "https://github.com/moonixt/backend-feed-book",
+  },
+  {
+    title: "Imeal Backend",
+    year: 2024,
+    description: "Projeto Backend de site de delivery",
+    url: "https://github.com/moonixt/imeal-backend",
+  },
+  {
+    title: "Imeal Frontend",
+    year: 2024,
+    description: "Projeto Frontend de site de delivery",
+    url: "https://github.com/moonixt/imeal-frontend",
   },
 ];
