@@ -56,9 +56,9 @@ export const projects: Project[] = [
   },
   {
     title: "Jogo de texto em python",
-    year: 2022,
+    year: 2024,
     description: "Um simples jogo de texto desenvolvido em Python. ",
     url: "https://github.com/moonixt/Jogo_em_texto_python",
-    image: "/photos/vampire.png",
+    image: "/photos/textop.png",
   },
 ];
