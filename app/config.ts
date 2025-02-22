@@ -1,8 +1,8 @@
 export const metaData = {
-  baseUrl: "https://nextfolio-template.vercel.app/",
+  baseUrl: "https://nextfolio-next-js-portfolio.vercel.app/",
   title: "Derek Willian",
   name: "Derek Willian",
-  ogImage: "/opengraph-image.png",
+  ogImage: "/image1.png",
   description:
     "Um portfólio limpo, rápido e leve, construído com Next.js, Vercel e Tailwind CSS",
 };
