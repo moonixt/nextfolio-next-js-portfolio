@@ -10,7 +10,9 @@ export const metadata: Metadata = {
 export default function Projects() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Projetos 👇👇</h1>
+      <h2 className="mb-8 text-2xl font-medium tracking-tight">
+        Projetos 👇👇
+      </h2>
       <div className="">
         {projects.map((project, index) => (
           <Link
@@ -21,7 +23,9 @@ export default function Projects() {
             rel="noopener noreferrer"
           >
             <div className="">
-              <h2 className="text-black dark:text-white pb-3 text-xl">✅{project.title}</h2>
+              <h2 className="text-black dark:text-white pb-3 text-xl">
+                ✅{project.title}
+              </h2>
               <p className="text-neutral-600 dark:text-neutral-400 tracking-tight">
                 {project.description}
               </p>

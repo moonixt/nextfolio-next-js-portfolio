@@ -8,6 +8,17 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Web Log",
+    year: 2025,
+    description:
+      "Projeto pessoal, para postagens de ideias e interesses pessoais" +
+      "Desenvolvido com ReactJS, Next, e TypeScript " +
+      "O projeto possui deploy, e pode ser acessado pelo link na descrição do GitHub.",
+    url: "https://github.com/moonixt/tailwind-weblog",
+    image: "/photos/weblog.gif",
+  },
+
+  {
     title: "Feedbook Frontend",
     year: 2024,
     description:
@@ -40,7 +51,8 @@ export const projects: Project[] = [
   {
     title: "Imeal Frontend",
     year: 2024,
-    description: "Projeto Frontend de site de delivery desenvolvido principalmente com ReactJS e JavaScript puro. " +
+    description:
+      "Projeto Frontend de site de delivery desenvolvido principalmente com ReactJS e JavaScript puro. " +
       "Durante o desenvolvimento, foram aplicadas várias APIs do Google, como Maps, Geolocation e Google Pay. " +
       "O Firebase foi utilizado para autenticação e banco de dados.",
     url: "https://github.com/moonixt/imeal-frontend",
@@ -49,7 +61,8 @@ export const projects: Project[] = [
   {
     title: "Imeal Backend",
     year: 2024,
-    description: "Projeto Backend de site de delivery que complementa o Frontend. " +
+    description:
+      "Projeto Backend de site de delivery que complementa o Frontend. " +
       "Desenvolvido com Python e Django, este projeto fornece uma API robusta e segura " +
       "para garantir a integração perfeita com o Frontend, além de gerenciar a lógica de negócios e o armazenamento de dados.",
     url: "https://github.com/moonixt/imeal-backend",

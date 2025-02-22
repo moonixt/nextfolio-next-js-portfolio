@@ -9,8 +9,9 @@
 
 /* Light theme colors */
 :root {
+  background: linear-gradient(135deg, #ffffff, #849ab0e6);
   --sh-class: #2d5e9d;
-  --sh-identifier: #354150;
+  --sh-identifier: #ffffff;
   --sh-sign: #8996a3;
   --sh-string: #007f7a;
   --sh-keyword: #e02518;
@@ -22,7 +23,7 @@
 
 /* Dark theme colors */
 .dark {
-  background-color: #121212;
+  background: linear-gradient(135deg, #121212, #5035a377);
   --sh-class: #4c97f8;
   --sh-identifier: white;
   --sh-sign: #8996a3;
@@ -32,6 +33,7 @@
   --sh-jsxliterals: #6266d1;
   --sh-property: #e25a1c;
   --sh-entity: #e25a1c;
+  
 }
 
 html {
